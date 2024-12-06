@@ -311,10 +311,10 @@ padding: 0;
   #overview{
     position: relative;
     top:45vh;
-    height: 80vh;
+    height: 140vh;
     padding: 0;
     margin: 0;
-    background-color: #FFF;
+    background-color: #fff;
     }
     
     .commonheading {
@@ -373,8 +373,8 @@ padding: 0;
   
     #skills{
     position: relative;
-    top:125vh;
-    height: 90vh;
+    top:45vh;
+    height: 60vh;
     padding: 0;
     margin: 0;
     background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
@@ -390,7 +390,7 @@ padding: 0;
       flex-direction:row ;
       flex-wrap: nowrap;
       position: absolute;
-      top: 24vh;
+      top: 20vh;
       left: 4vw;
        
     }
@@ -410,8 +410,8 @@ padding: 0;
     #project{
       background-color: #212529;
       position: absolute;
-      top:288vh;
-      height: 108vh;
+      top:251vh;
+      height: 78vh;
       width: 100vw;
      
     }
@@ -450,12 +450,219 @@ padding: 0;
     
       .btn{
         position: absolute;
-        bottom: 7%;
+        bottom: 12%;
         left: 8.6%;
       }
 }
 
-
+@media (max-width: 392px) and (min-width:381px){
+  html{
+    overflow-x: hidden;
+  }
+  
+    #img-holder {
+      height: 15rem; /* even smaller height */
+      width: auto; /* even smaller width */
+      position: relative;
+      top: 0vh;
+      transform: translateX(-14%);
+      transform: translateY(20%);
+    }
+  
+    #hi {
+      top: 10vh; /* adjust position */
+      left: 20vw; /* center horizontally */
+      font-size: 2rem; /* smaller font size */
+      transform: translateX(-50%); /* center horizontally */
+    }
+  
+    #myname {
+      top: 15vh; /* adjust position */
+      font-size: 2.8rem; /* smaller font size */
+      left: 27vw; /* center horizontally */
+      transform: translateX(-50%); /* center horizontally */
+    }
+  
+    /* Adjust navbar for small screens */
+    .navbar {
+      padding: 10px 0; /* reduce padding */
+    }
+  
+    .nav-link {
+      font-size: 1.6rem !important; /* smaller font size for smaller screens */
+      padding-right: 20px !important; /* reduce padding for smaller screens */
+      padding-left: 20px;
+    }
+  
+    
+  main {
+    position: absolute;
+    top: 26px;
+    background-image: url("./images/2.webp");
+    height: 45%;
+    filter: opacity(0.9);
+    filter: grayscale(0.95);
+    filter: saturate(10%);
+  }
+  
+  #role{
+    position: absolute;
+    z-index: 108;
+    top: 25vh;
+    left: 9vw;
+    margin-right: 52vw;
+    font-size: .8rem;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+  }
+  
+  #overview{
+    position: relative;
+    top:45vh;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    background-color: #FFF;
+    }
+    
+    .commonheading {
+      position: absolute;
+      top: -5%; /* Start position (hidden above the viewport) */
+      left: 7.75vw;
+      font-family: "Roboto", sans-serif;
+      font-weight: 900;
+      font-size: 4rem;
+      opacity: 0; /* Initially hidden */
+      transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    }
+    
+    .commonheading.active {
+      top: 0%; /* Final position (visible in the viewport) */
+      opacity: 1; /* Fully visible */
+    }
+    
+    .heading1 {
+      position: absolute;
+      top: 0%; /* Start position (hidden above the viewport) */
+      left: 7.75vw;
+      font-family: "Roboto", sans-serif;
+      font-weight: 900;
+      font-size: 4rem;
+      opacity: 0; /* Initially hidden */
+      transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+      z-index: 500;
+      color: #fff;
+    }
+    
+    .heading1.active {
+      top:6%; /* Final position (visible in the viewport) */
+      opacity: 1; /* Fully visible */
+    }
+    
+    .desc{
+    position: absolute;
+    top:100px;
+    left: 7.75vw;
+    margin-right: 7.75vw;
+    text-align: justify;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    }
+    
+    .card{
+    display: none;
+    }
+    
+  .card-img-top{
+    display: none;
+  }
+  
+    #skills{
+      position: relative;
+    top:125vh;
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    filter: blur(1);
+    
+    }
+    
+    #iconholder{
+      display: flexbox;
+      flex-direction:row ;
+      flex-wrap: nowrap;
+      position: absolute;
+      top: 24vh;
+      left: 4vw;
+       
+    }
+    .ic {
+      height: 6rem;
+      padding:0 2vw 5vw 5vw;
+      filter: saturate(90%);
+      filter: brightness(90%);
+      transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
+    }
+    
+    .ic:hover {
+      filter: saturate(120%);
+      transform: scale(1.03);
+    }
+    
+    #project{
+      background-color: #212529;
+      position: absolute;
+      top:278vh;
+      height: 80vh;
+      width: 100vw;
+     
+    }
+    
+    .proj {
+      position: absolute;
+      top: 0%; /* Start position (hidden above the viewport) */
+      left: 8.30vw;
+      font-family: "Roboto", sans-serif;
+      font-weight: 900;
+      font-size: 4rem;
+      opacity: 0; /* Initially hidden */
+      transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+      z-index: 500;
+      margin: 0;
+    padding: 0;
+    }
+    
+    .proj.active {
+      top:6%; /* Final position (visible in the viewport) */
+      opacity: 1; /* Fully visible */
+      color: #fff;
+    }
+    
+    .pd{
+      position: absolute;
+      top:150px;
+      margin-left: 8.5%;
+      margin-right: 8.5%;
+      text-align: justify;
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: 500;
+      font-family: "Roboto", sans-serif;
+      }
+    
+      .btn{
+        position: absolute;
+        bottom:  10%;
+        left: 8.6%;
+      }
+    }
 
 
 
