@@ -238,7 +238,7 @@ main {
   left: 8.6%;
 }
 
-@media (max-width: 1920px) and (min-width: 1024px) {
+@media (max-width: 1920px) and (min-width: 1340px) {
   html {
     overflow-x: hidden;
   }
@@ -472,6 +472,245 @@ main {
     left: 8.6%;
   }
 }
+
+
+@media (max-width: 1340px) and (min-width: 1024px) {
+  html {
+    overflow-x: hidden;
+  }
+ 
+
+  .navbar {
+    background-color: #000;
+    /* background-color: rgb(25,25,25); */
+    position: fixed;
+    top: 0%;
+    z-index: 90;
+  }
+
+  /* Apply the font to elements */
+  .nav-link {
+    font-family: "Mova", sans-serif;
+    text-decoration: none;
+    font-size: 1.9rem !important;
+    color: rgb(195, 195, 195) !important;
+    padding-top: 0px !important;
+    padding-bottom: 0 !important;
+    padding-right: 40px !important;
+    transition: color 1s ease !important, transform 1s ease !important; /* Transition with !important */
+  }
+
+  .nav-link:hover {
+    color: rgb(255, 255, 255) !important;
+    transform: scale(
+      1.02
+    ) !important; /* Slightly increased scale for visibility */
+  }
+
+  main {
+    position: absolute;
+    top: 26px;
+    background-image: url("./images/2.webp");
+    height: 78vh;
+    filter: opacity(0.9);
+    filter: grayscale(0.95);
+    filter: saturate(10%);
+    box-shadow: 0px 0px 8px 8px #655556;
+  }
+
+  /* Default styles for larger screens */
+  #img-holder {
+    height: auto;
+    width: 26rem;
+    position: absolute;
+    top: 10%;
+    left: 30vw;
+    filter: saturate(550%) opacity(1) grayscale(0);
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 30%;
+  }
+
+  #hi {
+    position: absolute;
+    z-index: 100;
+    top: 70%;
+    left: 26.75vw;
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    color: #fff7;
+  }
+
+  #myname {
+    font-family: "Mova";
+    position: absolute;
+    z-index: 100;
+    color: white;
+    top: 70.65%;
+    left: 51.75vw;
+    font-size: 5rem;
+    font-weight: 800;
+  }
+
+  #role {
+    position: absolute;
+    z-index: 108;
+    top: 64vh;
+    left: 17.75vw;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: #fff;text-align: center;
+  }
+
+  #overview {
+    position: relative;
+    top: 79vh;
+    height: 78vh;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+  }
+
+  .commonheading {
+    position: absolute;
+    top: -5%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 1s ease-out; /* Smooth transition for both position and visibility */
+  }
+
+  .commonheading.active {
+    top: 0%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .heading1 {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    color: #fff;
+  }
+
+  .heading1.active {
+    top: 5%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .desc {
+    position: absolute;
+    top: 100px;
+   
+    text-align: justify;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .card {
+   
+    display: none;
+  }
+
+  .card-img-top{
+    display: none;
+  }
+
+  #skills {
+    position: relative;
+    top: 62vh;
+    height: 30vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    filter: blur(1);
+  }
+
+  #iconholder {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+  }
+  .ic {
+    height: 6rem;
+    padding-left: 0px;
+    padding-right: 4.5vw;
+    padding-bottom: 4vh;
+    filter: saturate(90%);
+    filter: brightness(90%);
+    transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
+  }
+
+  .ic:hover {
+    filter: saturate(120%);
+    transform: scale(1.03);
+  }
+
+  #project {
+    background-color: #212529;
+    position: absolute;
+    top: 172vh;
+    height: 40vh;
+    width: 100vw;
+  }
+
+  .proj {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 8.3vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    margin: 0;
+    padding: 0;
+  }
+
+  .proj.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+    color: #fff;
+  }
+
+  .pd {
+    position: absolute;
+    top: 150px;
+    margin-left: 8.5%;
+    margin-right: 23.5%;
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 10%;
+    left: 8.6%;
+  }
+}
+
 
 @media (max-width: 1024px) and (min-width: 820px) {
   html {
