@@ -392,7 +392,7 @@ main {
 
   #skills {
     position: relative;
-    top: 110vh;
+    top: 120vh;
     height: 60vh;
     padding: 0;
     margin: 0;
@@ -429,7 +429,7 @@ main {
   #project {
     background-color: #212529;
     position: absolute;
-    top: 256vh;
+    top: 266vh;
     height: 65vh;
     width: 100vw;
   }
@@ -1404,7 +1404,7 @@ main {
     height: 15rem; /* even smaller height */
     width: auto; /* even smaller width */
     position: relative;
-    top: 4vh;
+    top: 3vh;
     left: 48vw;
     transform: translateY(20%);
   }
@@ -1438,7 +1438,7 @@ main {
     position: absolute;
     top: 26px;
     background-image: url("./images/2.webp");
-    height: 40%;
+    height: 50%;
     filter: opacity(0.9);
     filter: grayscale(0.95);
     filter: saturate(10%);
