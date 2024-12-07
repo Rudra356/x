@@ -1,4 +1,4 @@
-html{
+html {
   overflow-x: hidden;
 }
 
@@ -9,8 +9,6 @@ html{
   font-weight: 500;
   font-style: normal;
 }
-
-
 
 .navbar {
   background-color: #000;
@@ -86,7 +84,7 @@ main {
   font-weight: 800;
 }
 
-#role{
+#role {
   position: absolute;
   z-index: 108;
   top: 64%;
@@ -97,13 +95,13 @@ main {
   color: #000;
 }
 
-#overview{
-position: relative;
-top:95vh;
-height: 80vh;
-padding: 0;
-margin: 0;
-background-color: #FFF;
+#overview {
+  position: relative;
+  top: 95vh;
+  height: 80vh;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
 }
 
 .commonheading {
@@ -136,51 +134,49 @@ background-color: #FFF;
 }
 
 .heading1.active {
-  top:10%; /* Final position (visible in the viewport) */
+  top: 10%; /* Final position (visible in the viewport) */
   opacity: 1; /* Fully visible */
 }
 
-.desc{
-position: absolute;
-top:100px;
-left: 7.75vw;
-margin-right: 23.5%;
-text-align: justify;
-color: #666;
-font-size: 1.1rem;
-font-weight: 500;
-font-family: "Roboto", sans-serif;
+.desc {
+  position: absolute;
+  top: 100px;
+  left: 7.75vw;
+  margin-right: 23.5%;
+  text-align: justify;
+  color: #666;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
 
-.card{
+.card {
   position: absolute;
-  left: 79%;
-  top:10%;
+  left: 85%;
+  top: 10%;
   border: none;
 }
 
-#skills{
+#skills {
   position: relative;
-top:110vh;
-height: 70vh;
-padding: 0;
-margin: 0;
-background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
-background-size: cover;
-background-repeat: no-repeat;
-image-rendering: optimizeQuality;
-filter: blur(1);
-
+  top: 110vh;
+  height: 70vh;
+  padding: 0;
+  margin: 0;
+  background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-rendering: optimizeQuality;
+  filter: blur(1);
 }
 
-#iconholder{
+#iconholder {
   display: flexbox;
-  flex-direction:row ;
+  flex-direction: row;
   flex-wrap: nowrap;
   position: absolute;
   top: 50%;
   left: 15%;
-   
 }
 .ic {
   height: 6rem;
@@ -196,19 +192,18 @@ filter: blur(1);
   transform: scale(1.03);
 }
 
-#project{
+#project {
   background-color: #212529;
   position: absolute;
-  top:268vh;
+  top: 268vh;
   height: 65vh;
   width: 100vw;
- 
 }
 
 .proj {
   position: absolute;
   top: 0%; /* Start position (hidden above the viewport) */
-  left: 8.30vw;
+  left: 8.3vw;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 4rem;
@@ -216,18 +211,18 @@ filter: blur(1);
   transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
   z-index: 500;
   margin: 0;
-padding: 0;
+  padding: 0;
 }
 
 .proj.active {
-  top:6%; /* Final position (visible in the viewport) */
+  top: 6%; /* Final position (visible in the viewport) */
   opacity: 1; /* Fully visible */
   color: #fff;
 }
 
-.pd{
+.pd {
   position: absolute;
-  top:150px;
+  top: 150px;
   margin-left: 8.5%;
   margin-right: 23.5%;
   text-align: justify;
@@ -235,28 +230,19 @@ padding: 0;
   font-size: 1.1rem;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
-  }
+}
 
-  .btn{
-    position: absolute;
-    bottom: 10%;
-    left: 8.6%;
-  }
+.btn {
+  position: absolute;
+  bottom: 10%;
+  left: 8.6%;
+}
 
-
-
-
-
-
-
-  
-
-@media (max-width:1920px) and (min-width:1023px){
-  html{
+@media (max-width: 1920px) and (min-width: 1024px) {
+  html {
     overflow-x: hidden;
   }
-  
-  
+
   .navbar {
     background-color: #000;
     /* background-color: rgb(25,25,25); */
@@ -264,7 +250,7 @@ padding: 0;
     top: 0%;
     z-index: 90;
   }
-  
+
   /* Apply the font to elements */
   .nav-link {
     font-family: "Mova", sans-serif;
@@ -276,12 +262,14 @@ padding: 0;
     padding-right: 40px !important;
     transition: color 1s ease !important, transform 1s ease !important; /* Transition with !important */
   }
-  
+
   .nav-link:hover {
     color: rgb(255, 255, 255) !important;
-    transform: scale(1.02) !important; /* Slightly increased scale for visibility */
+    transform: scale(
+      1.02
+    ) !important; /* Slightly increased scale for visibility */
   }
-  
+
   main {
     position: absolute;
     top: 26px;
@@ -292,7 +280,7 @@ padding: 0;
     filter: saturate(10%);
     box-shadow: 0px 0px 8px 8px #655556;
   }
-  
+
   /* Default styles for larger screens */
   #img-holder {
     height: auto;
@@ -306,7 +294,7 @@ padding: 0;
     border-top-right-radius: 5%;
     border-bottom-right-radius: 30%;
   }
-  
+
   #hi {
     position: absolute;
     z-index: 100;
@@ -317,7 +305,7 @@ padding: 0;
     font-family: "Roboto", sans-serif;
     color: #fff7;
   }
-  
+
   #myname {
     font-family: "Mova";
     position: absolute;
@@ -328,8 +316,8 @@ padding: 0;
     font-size: 6.5rem;
     font-weight: 800;
   }
-  
-  #role{
+
+  #role {
     position: absolute;
     z-index: 108;
     top: 64%;
@@ -339,16 +327,16 @@ padding: 0;
     font-family: "Roboto", sans-serif;
     color: #000;
   }
-  
-  #overview{
-  position: relative;
-  top:95vh;
-  height: 78vh;
-  padding: 0;
-  margin: 0;
-  background-color: #fff;
+
+  #overview {
+    position: relative;
+    top: 95vh;
+    height: 78vh;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
   }
-  
+
   .commonheading {
     position: absolute;
     top: -10%; /* Start position (hidden above the viewport) */
@@ -359,12 +347,12 @@ padding: 0;
     opacity: 0; /* Initially hidden */
     transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
   }
-  
+
   .commonheading.active {
     top: -4%; /* Final position (visible in the viewport) */
     opacity: 1; /* Fully visible */
   }
-  
+
   .heading1 {
     position: absolute;
     top: 0%; /* Start position (hidden above the viewport) */
@@ -377,53 +365,51 @@ padding: 0;
     z-index: 500;
     color: #fff;
   }
-  
+
   .heading1.active {
-    top:10%; /* Final position (visible in the viewport) */
+    top: 10%; /* Final position (visible in the viewport) */
     opacity: 1; /* Fully visible */
   }
-  
-  .desc{
-  position: absolute;
-  top:100px;
-  left: 7.75vw;
-  margin-right: 30vw;
-  text-align: justify;
-  color: #666;
-  font-size: 1.1rem;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
+
+  .desc {
+    position: absolute;
+    top: 100px;
+    left: 7.75vw;
+    margin-right: 30vw;
+    text-align: justify;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
   }
-  
-  .card{
+
+  .card {
     position: absolute;
     left: 72vw;
-    top:10%;
+    top: 10%;
     border: none;
   }
-  
-  #skills{
+
+  #skills {
     position: relative;
-  top:110vh;
-  height: 60vh;
-  padding: 0;
-  margin: 0;
-  background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
-  filter: blur(1);
-  
+    top: 110vh;
+    height: 60vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    filter: blur(1);
   }
-  
-  #iconholder{
+
+  #iconholder {
     display: flexbox;
-    flex-direction:row ;
+    flex-direction: row;
     flex-wrap: nowrap;
     position: absolute;
     top: 52%;
     left: 22%;
-     
   }
   .ic {
     height: 6rem;
@@ -434,25 +420,24 @@ padding: 0;
     filter: brightness(90%);
     transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
   }
-  
+
   .ic:hover {
     filter: saturate(120%);
     transform: scale(1.03);
   }
-  
-  #project{
+
+  #project {
     background-color: #212529;
     position: absolute;
-    top:256vh;
+    top: 256vh;
     height: 65vh;
     width: 100vw;
-   
   }
-  
+
   .proj {
     position: absolute;
     top: 0%; /* Start position (hidden above the viewport) */
-    left: 8.30vw;
+    left: 8.3vw;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 4rem;
@@ -460,18 +445,18 @@ padding: 0;
     transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
     z-index: 500;
     margin: 0;
-  padding: 0;
+    padding: 0;
   }
-  
+
   .proj.active {
-    top:6%; /* Final position (visible in the viewport) */
+    top: 6%; /* Final position (visible in the viewport) */
     opacity: 1; /* Fully visible */
     color: #fff;
   }
-  
-  .pd{
+
+  .pd {
     position: absolute;
-    top:150px;
+    top: 150px;
     margin-left: 8.5%;
     margin-right: 23.5%;
     text-align: justify;
@@ -479,29 +464,21 @@ padding: 0;
     font-size: 1.1rem;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
-    }
-  
-    .btn{
-      position: absolute;
-      bottom: 10%;
-      left: 8.6%;
-    }
   }
 
+  .btn {
+    position: absolute;
+    bottom: 10%;
+    left: 8.6%;
+  }
+}
 
-
-
-
-
-
-
-
-@media (max-width:1023px) and (min-width:788px){
-  html{
+@media (max-width: 1024px) and (min-width: 820px) {
+  html {
     overflow-x: hidden;
   }
-  
-  
+ 
+
   .navbar {
     background-color: #000;
     /* background-color: rgb(25,25,25); */
@@ -509,7 +486,7 @@ padding: 0;
     top: 0%;
     z-index: 90;
   }
-  
+
   /* Apply the font to elements */
   .nav-link {
     font-family: "Mova", sans-serif;
@@ -521,95 +498,97 @@ padding: 0;
     padding-right: 40px !important;
     transition: color 1s ease !important, transform 1s ease !important; /* Transition with !important */
   }
-  
+
   .nav-link:hover {
     color: rgb(255, 255, 255) !important;
-    transform: scale(1.02) !important; /* Slightly increased scale for visibility */
+    transform: scale(
+      1.02
+    ) !important; /* Slightly increased scale for visibility */
   }
-  
+
   main {
     position: absolute;
     top: 26px;
     background-image: url("./images/2.webp");
-    height: 92vh;
+    height: 78vh;
     filter: opacity(0.9);
     filter: grayscale(0.95);
     filter: saturate(10%);
     box-shadow: 0px 0px 8px 8px #655556;
   }
-  
+
   /* Default styles for larger screens */
   #img-holder {
     height: auto;
-    width: 22rem;
+    width: 26rem;
     position: absolute;
-    top: 16%;
-    left: 72vw;
+    top: 10%;
+    left: 30vw;
     filter: saturate(550%) opacity(1) grayscale(0);
     border-top-left-radius: 30%;
     border-bottom-left-radius: 5%;
     border-top-right-radius: 5%;
     border-bottom-right-radius: 30%;
   }
-  
+
   #hi {
     position: absolute;
     z-index: 100;
-    top: 22%;
-    left: 7.75vw;
+    top: 70%;
+    left: 26.75vw;
     font-size: 5rem;
     font-weight: 800;
     font-family: "Roboto", sans-serif;
     color: #fff7;
   }
-  
+
   #myname {
     font-family: "Mova";
     position: absolute;
     z-index: 100;
     color: white;
-    top: 38%;
-    left: 7.75vw;
-    font-size: 6.5rem;
+    top: 70.65%;
+    left: 51.75vw;
+    font-size: 5rem;
     font-weight: 800;
   }
-  
-  #role{
+
+  #role {
     position: absolute;
     z-index: 108;
-    top: 64%;
-    left: 7.75vw;
+    top: 64vh;
+    left: 17.75vw;
     font-size: 2rem;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
-    color: #000;
+    color: #fff;text-align: center;
   }
-  
-  #overview{
-  position: relative;
-  top:95vh;
-  height: 120vh;
-  padding: 0;
-  margin: 0;
-  background-color: #fff;
+
+  #overview {
+    position: relative;
+    top: 79vh;
+    height: 78vh;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
   }
-  
+
   .commonheading {
     position: absolute;
-    top: -10%; /* Start position (hidden above the viewport) */
+    top: -5%; /* Start position (hidden above the viewport) */
     left: 7.75vw;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 4rem;
     opacity: 0; /* Initially hidden */
-    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    transition: top 1.5s ease-out, opacity 1s ease-out; /* Smooth transition for both position and visibility */
   }
-  
+
   .commonheading.active {
-    top: -4%; /* Final position (visible in the viewport) */
+    top: 0%; /* Final position (visible in the viewport) */
     opacity: 1; /* Fully visible */
   }
-  
+
   .heading1 {
     position: absolute;
     top: 0%; /* Start position (hidden above the viewport) */
@@ -622,53 +601,52 @@ padding: 0;
     z-index: 500;
     color: #fff;
   }
-  
+
   .heading1.active {
-    top:10%; /* Final position (visible in the viewport) */
+    top: 5%; /* Final position (visible in the viewport) */
     opacity: 1; /* Fully visible */
   }
-  
-  .desc{
-  position: absolute;
-  top:100px;
-  left: 7.75vw;
-  margin-right: 30vw;
-  text-align: justify;
-  color: #666;
-  font-size: 1.1rem;
-  font-weight: 500;
-  font-family: "Roboto", sans-serif;
-  }
-  
-  .card{
+
+  .desc {
     position: absolute;
-    left: 72vw;
-    top:10%;
-    border: none;
+    top: 100px;
+   
+    text-align: justify;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
   }
-  
-  #skills{
+
+  .card {
+   
+    display: none;
+  }
+
+  .card-img-top{
+    display: none;
+  }
+
+  #skills {
     position: relative;
-  top:96vh;
-  height: 60vh;
-  padding: 0;
-  margin: 0;
-  background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
-  image-rendering: optimizeQuality;
-  filter: blur(1);
-  
+    top: 62vh;
+    height: 30vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    filter: blur(1);
   }
-  
-  #iconholder{
+
+  #iconholder {
     display: flexbox;
-    flex-direction:row ;
+    flex-direction: row;
     flex-wrap: nowrap;
     position: absolute;
     top: 52%;
     left: 15%;
-     
   }
   .ic {
     height: 6rem;
@@ -679,25 +657,24 @@ padding: 0;
     filter: brightness(90%);
     transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
   }
-  
+
   .ic:hover {
     filter: saturate(120%);
     transform: scale(1.03);
   }
-  
-  #project{
+
+  #project {
     background-color: #212529;
     position: absolute;
-    top:285vh;
-    height: 75vh;
+    top: 172vh;
+    height: 40vh;
     width: 100vw;
-   
   }
-  
+
   .proj {
     position: absolute;
     top: 0%; /* Start position (hidden above the viewport) */
-    left: 8.30vw;
+    left: 8.3vw;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 4rem;
@@ -705,18 +682,18 @@ padding: 0;
     transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
     z-index: 500;
     margin: 0;
-  padding: 0;
+    padding: 0;
   }
-  
+
   .proj.active {
-    top:6%; /* Final position (visible in the viewport) */
+    top: 6%; /* Final position (visible in the viewport) */
     opacity: 1; /* Fully visible */
     color: #fff;
   }
-  
-  .pd{
+
+  .pd {
     position: absolute;
-    top:150px;
+    top: 150px;
     margin-left: 8.5%;
     margin-right: 23.5%;
     text-align: justify;
@@ -724,274 +701,500 @@ padding: 0;
     font-size: 1.1rem;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
-    }
-  
-    .btn{
-      position: absolute;
-      bottom: 10%;
-      left: 8.6%;
-    }
   }
 
+  .btn {
+    position: absolute;
+    bottom: 10%;
+    left: 8.6%;
+  }
+}
 
 
+@media (max-width: 820px) and (min-width: 787px) {
+  html {
+    overflow-x: hidden;
+  }
+ 
+
+  .navbar {
+    background-color: #000;
+    /* background-color: rgb(25,25,25); */
+    position: fixed;
+    top: 0%;
+    z-index: 90;
+  }
+
+  /* Apply the font to elements */
+  .nav-link {
+    font-family: "Mova", sans-serif;
+    text-decoration: none;
+    font-size: 1.9rem !important;
+    color: rgb(195, 195, 195) !important;
+    padding-top: 0px !important;
+    padding-bottom: 0 !important;
+    padding-right: 40px !important;
+    transition: color 1s ease !important, transform 1s ease !important; /* Transition with !important */
+  }
+
+  .nav-link:hover {
+    color: rgb(255, 255, 255) !important;
+    transform: scale(
+      1.02
+    ) !important; /* Slightly increased scale for visibility */
+  }
+
+  main {
+    position: absolute;
+    top: 26px;
+    background-image: url("./images/2.webp");
+    height: 92vh;
+    filter: opacity(0.9);
+    filter: grayscale(0.95);
+    filter: saturate(10%);
+    box-shadow: 0px 0px 8px 8px #655556;
+  }
+
+  /* Default styles for larger screens */
+  #img-holder {
+    height: auto;
+    width: 26rem;
+    position: absolute;
+    top: 10%;
+    left: 25vw;
+    filter: saturate(550%) opacity(1) grayscale(0);
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 30%;
+  }
+
+  #hi {
+    position: absolute;
+    z-index: 100;
+    top: 68%;
+    left: 16.75vw;
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    color: #fff7;
+  }
+
+  #myname {
+    font-family: "Mova";
+    position: absolute;
+    z-index: 100;
+    color: white;
+    top: 68.5%;
+    left: 48.75vw;
+    font-size: 5rem;
+    font-weight: 800;
+  }
+
+  #role {
+    position: absolute;
+    z-index: 108;
+    top: 82%;
+    left: 9.75vw;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    color: #fff;text-align: center;
+  }
+
+  #overview {
+    position: relative;
+    top: 94vh;
+    height: 78vh;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+  }
+
+  .commonheading {
+    position: absolute;
+    top: -5%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 1s ease-out; /* Smooth transition for both position and visibility */
+  }
+
+  .commonheading.active {
+    top: 0%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .heading1 {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    color: #fff;
+  }
+
+  .heading1.active {
+    top: 5%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .desc {
+    position: absolute;
+    top: 100px;
+   
+    text-align: justify;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .card {
+   
+    display: none;
+  }
+
+  .card-img-top{
+    display: none;
+  }
+
+  #skills {
+    position: relative;
+    top: 94vh;
+    height: 30vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    filter: blur(1);
+  }
+
+  #iconholder {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 52%;
+    left: 15%;
+  }
+  .ic {
+    height: 6rem;
+    padding-left: 0px;
+    padding-right: 4.5vw;
+    padding-bottom: 4vh;
+    filter: saturate(90%);
+    filter: brightness(90%);
+    transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
+  }
+
+  .ic:hover {
+    filter: saturate(120%);
+    transform: scale(1.03);
+  }
+
+  #project {
+    background-color: #212529;
+    position: absolute;
+    top: 205vh;
+    height: 45vh;
+    width: 100vw;
+  }
+
+  .proj {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 8.3vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    margin: 0;
+    padding: 0;
+  }
+
+  .proj.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+    color: #fff;
+  }
+
+  .pd {
+    position: absolute;
+    top: 150px;
+    margin-left: 8.5%;
+    margin-right: 23.5%;
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 10%;
+    left: 8.6%;
+  }
+}
 
 /* Media query for very small screens (portrait phones) */
 
-  @media (max-width: 787px) and (min-width:432px){
-    html{
-      overflow-x: hidden;
-    }
-    
-      #img-holder {
-        height: 15rem; /* even smaller height */
-        width: auto; /* even smaller width */
-        position: relative;
-        top: 2vh;
-        transform: translateX(-14%);
-        transform: translateY(20%);
-      }
-    
-      #hi {
-        top: 10vh; /* adjust position */
-        left: 13.7vw; /* center horizontally */
-        font-size: 2rem; /* smaller font size */
-        transform: translateX(-50%); /* center horizontally */
-      }
-    
-      #myname {
-        top: 15vh; /* adjust position */
-        font-size: 2.8rem; /* smaller font size */
-        left: 17vw; /* center horizontally */
-        transform: translateX(-50%); /* center horizontally */
-      }
-    
-      /* Adjust navbar for small screens */
-      .navbar {
-        padding: 10px 0; /* reduce padding */
-      }
-    
-      .nav-link {
-        font-size: 1.6rem !important; /* smaller font size for smaller screens */
-        padding-right: 20px !important; /* reduce padding for smaller screens */
-        padding-left: 20px;
-      }
-    
-      
-    main {
-      position: absolute;
-      top: 26px;
-      background-image: url("./images/2.webp");
-      height: 35%;
-      filter: opacity(0.9);
-      filter: grayscale(0.95);
-      filter: saturate(10%);
-    }
-    
-    #role{
-      position: absolute;
-      z-index: 108;
-      top: 22vh;
-      left: 8vw;
-      margin-right: 52vw;
-      font-size: .8rem;
-      font-weight: 400;
-      font-family: "Roboto", sans-serif;
-      color: #fff;
-    }
-    
-    #overview{
-      position: relative;
-      top:34vh;
-      height: 80vh;
-      padding: 0;
-      margin: 0;
-      background-color: #fff;
-      }
-      
-      .commonheading {
-        position: absolute;
-        top: -5%; /* Start position (hidden above the viewport) */
-        left: 7.75vw;
-        font-family: "Roboto", sans-serif;
-        font-weight: 900;
-        font-size: 4rem;
-        opacity: 0; /* Initially hidden */
-        transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-      }
-      
-      .commonheading.active {
-        top: 0%; /* Final position (visible in the viewport) */
-        opacity: 1; /* Fully visible */
-      }
-      
-      .heading1 {
-        position: absolute;
-        top: 0%; /* Start position (hidden above the viewport) */
-        left: 7.75vw;
-        font-family: "Roboto", sans-serif;
-        font-weight: 900;
-        font-size: 4rem;
-        opacity: 0; /* Initially hidden */
-        transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-        z-index: 500;
-        color: #fff;
-      }
-      
-      .heading1.active {
-        top:6%; /* Final position (visible in the viewport) */
-        opacity: 1; /* Fully visible */
-      }
-      
-      .desc{
-      position: absolute;
-      top:100px;
-      left: 7.75vw;
-      margin-right: 7.75vw;
-      text-align: justify;
-      color: #666;
-      font-size: 1.1rem;
-      font-weight: 500;
-      font-family: "Roboto", sans-serif;
-      }
-      
-      .card{
-      display: none;
-      }
-      
-    .card-img-top{
-      display: none;
-    }
-    
-      #skills{
-        position: relative;
-      top:33vh;
-      height: 40vh;
-      padding: 0;
-      margin: 0;
-      background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
-      background-size: cover;
-      background-repeat: no-repeat;
-      image-rendering: optimizeQuality;
-      filter: blur(1);
-      
-      }
-      
-      #iconholder{
-        display: flexbox;
-        flex-direction:row ;
-        flex-wrap: nowrap;
-        position: absolute;
-        top: 17vh;
-        left: 4vw;
-         
-      }
-      .ic {
-        height: 6rem;
-        padding:0 2vw 5vw 5vw;
-        filter: saturate(90%);
-        filter: brightness(90%);
-        transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
-      }
-      
-      .ic:hover {
-        filter: saturate(120%);
-        transform: scale(1.03);
-      }
-      
-      #project{
-        background-color: #212529;
-        position: absolute;
-        top:158vh;
-        height: 48vh;
-        width: 100vw;
-       
-      }
-      
-      .proj {
-        position: absolute;
-        top: 0%; /* Start position (hidden above the viewport) */
-        left: 8.30vw;
-        font-family: "Roboto", sans-serif;
-        font-weight: 900;
-        font-size: 4rem;
-        opacity: 0; /* Initially hidden */
-        transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-        z-index: 500;
-        margin: 0;
-      padding: 0;
-      }
-      
-      .proj.active {
-        top:6%; /* Final position (visible in the viewport) */
-        opacity: 1; /* Fully visible */
-        color: #fff;
-      }
-      
-      .pd{
-        position: absolute;
-        top:150px;
-        margin-left: 8.5%;
-        margin-right: 8.5%;
-        text-align: justify;
-        color: #fff;
-        font-size: 1.1rem;
-        font-weight: 500;
-        font-family: "Roboto", sans-serif;
-        }
-      
-        .btn{
-          position: absolute;
-          bottom: 5vh;
-          left: 8.6%;
-        }
-      }
-    
-      
-
-
-
-/* Media query for screens smaller than 768px (smartphones) */
-@media (max-width: 431px) and (min-width:393px){
-  html{
+@media (max-width: 787px) and (min-width: 431px) {
+  html {
     overflow-x: hidden;
   }
-  
-    #img-holder {
-      height: 15rem; /* even smaller height */
-      width: auto; /* even smaller width */
-      position: relative;
-      top: 4vh;
+
+  #img-holder {
+    height: 15rem; /* even smaller height */
+    width: auto; /* even smaller width */
+    position: relative;
+    top: 2vh;
+    transform: translateX(-14%);
+    transform: translateY(20%);
+  }
+
+  #hi {
+    top: 10vh; /* adjust position */
+    left: 13.7vw; /* center horizontally */
+    font-size: 2rem; /* smaller font size */
+    transform: translateX(-50%); /* center horizontally */
+  }
+
+  #myname {
+    top: 15vh; /* adjust position */
+    font-size: 2.8rem; /* smaller font size */
+    left: 17vw; /* center horizontally */
+    transform: translateX(-50%); /* center horizontally */
+  }
+
+  /* Adjust navbar for small screens */
+  .navbar {
+    padding: 10px 0; /* reduce padding */
+  }
+
+  .nav-link {
+    font-size: 1.6rem !important; /* smaller font size for smaller screens */
+    padding-right: 20px !important; /* reduce padding for smaller screens */
+    padding-left: 20px;
+  }
+
+  main {
+    position: absolute;
+    top: 26px;
+    background-image: url("./images/2.webp");
+    height: 35%;
+    filter: opacity(0.9);
+    filter: grayscale(0.95);
+    filter: saturate(10%);
+  }
+
+  #role {
+    position: absolute;
+    z-index: 108;
+    top: 22vh;
+    left: 8vw;
+    margin-right: 52vw;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+  }
+
+  #overview {
+    position: relative;
+    top: 34vh;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+  }
+
+  .commonheading {
+    position: absolute;
+    top: -5%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+  }
+
+  .commonheading.active {
+    top: 0%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .heading1 {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    color: #fff;
+  }
+
+  .heading1.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .desc {
+    position: absolute;
+    top: 100px;
+    left: 7.75vw;
+    margin-right: 7.75vw;
+    text-align: justify;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .card-img-top {
+    display: none;
+  }
+
+  #skills {
+    position: relative;
+    top: 33vh;
+    height: 40vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    filter: blur(1);
+  }
+
+  #iconholder {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 17vh;
+    left: 4vw;
+  }
+  .ic {
+    height: 6rem;
+    padding: 0 2vw 5vw 5vw;
+    filter: saturate(90%);
+    filter: brightness(90%);
+    transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
+  }
+
+  .ic:hover {
+    filter: saturate(120%);
+    transform: scale(1.03);
+  }
+
+  #project {
+    background-color: #212529;
+    position: absolute;
+    top: 158vh;
+    height: 48vh;
+    width: 100vw;
+  }
+
+  .proj {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 8.3vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    margin: 0;
+    padding: 0;
+  }
+
+  .proj.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+    color: #fff;
+  }
+
+  .pd {
+    position: absolute;
+    top: 150px;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 5vh;
+    left: 8.6%;
+  }
+}
+
+/* Media query for screens smaller than 768px (smartphones) */
+@media (max-width: 431px) and (min-width: 392px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  #img-holder {
+    height: 15rem; /* even smaller height */
+    width: auto; /* even smaller width */
+    position: relative;
+    top: 4vh;
     left: 48vw;
-      transform: translateY(20%);
-    }
-  
-    #hi {
-      top: 10vh; /* adjust position */
-      left: 20vw; /* center horizontally */
-      font-size: 2rem; /* smaller font size */
-      transform: translateX(-50%); /* center horizontally */
-    }
-  
-    #myname {
-      top: 15vh; /* adjust position */
-      font-size: 2.8rem; /* smaller font size */
-      left: 27vw; /* center horizontally */
-      transform: translateX(-50%); /* center horizontally */
-    }
-  
-    /* Adjust navbar for small screens */
-    .navbar {
-      padding: 10px 0; /* reduce padding */
-    }
-  
-    .nav-link {
-      font-size: 1.6rem !important; /* smaller font size for smaller screens */
-      padding-right: 20px !important; /* reduce padding for smaller screens */
-      padding-left: 20px;
-    }
-  
-    
+    transform: translateY(20%);
+  }
+
+  #hi {
+    top: 10vh; /* adjust position */
+    left: 20vw; /* center horizontally */
+    font-size: 2rem; /* smaller font size */
+    transform: translateX(-50%); /* center horizontally */
+  }
+
+  #myname {
+    top: 15vh; /* adjust position */
+    font-size: 2.8rem; /* smaller font size */
+    left: 27vw; /* center horizontally */
+    transform: translateX(-50%); /* center horizontally */
+  }
+
+  /* Adjust navbar for small screens */
+  .navbar {
+    padding: 10px 0; /* reduce padding */
+  }
+
+  .nav-link {
+    font-size: 1.6rem !important; /* smaller font size for smaller screens */
+    padding-right: 20px !important; /* reduce padding for smaller screens */
+    padding-left: 20px;
+  }
+
   main {
     position: absolute;
     top: 26px;
@@ -1001,65 +1204,65 @@ padding: 0;
     filter: grayscale(0.95);
     filter: saturate(10%);
   }
-  
-  #role{
+
+  #role {
     position: absolute;
     z-index: 108;
     top: 25vh;
     left: 9vw;
     margin-right: 52vw;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     color: #fff;
   }
-  
-  #overview{
+
+  #overview {
     position: relative;
-    top:40vh;
+    top: 40vh;
     height: 140vh;
     padding: 0;
     margin: 0;
     background-color: #fff;
-    }
-    
-    .commonheading {
-      position: absolute;
-      top: -3%; /* Start position (hidden above the viewport) */
-      left: 7.75vw;
-      font-family: "Roboto", sans-serif;
-      font-weight: 900;
-      font-size: 4rem;
-      opacity: 0; /* Initially hidden */
-      transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-    }
-    
-    .commonheading.active {
-      top: 0%; /* Final position (visible in the viewport) */
-      opacity: 1; /* Fully visible */
-    }
-    
-    .heading1 {
-      position: absolute;
-      top: 0%; /* Start position (hidden above the viewport) */
-      left: 7.75vw;
-      font-family: "Roboto", sans-serif;
-      font-weight: 900;
-      font-size: 4rem;
-      opacity: 0; /* Initially hidden */
-      transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-      z-index: 500;
-      color: #fff;
-    }
-    
-    .heading1.active {
-      top:6%; /* Final position (visible in the viewport) */
-      opacity: 1; /* Fully visible */
-    }
-    
-    .desc{
+  }
+
+  .commonheading {
     position: absolute;
-    top:100px;
+    top: -3%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+  }
+
+  .commonheading.active {
+    top: 0%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .heading1 {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    color: #fff;
+  }
+
+  .heading1.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .desc {
+    position: absolute;
+    top: 100px;
     left: 7.75vw;
     margin-right: 7.75vw;
     text-align: justify;
@@ -1067,19 +1270,19 @@ padding: 0;
     font-size: 1.1rem;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
-    }
-    
-    .card{
+  }
+
+  .card {
     display: none;
-    }
-    
-    .card-img-top{
+  }
+
+  .card-img-top {
     display: none;
-    }
-  
-    #skills{
+  }
+
+  #skills {
     position: relative;
-    top:38vh;
+    top: 38vh;
     height: 60vh;
     padding: 0;
     margin: 0;
@@ -1088,715 +1291,686 @@ padding: 0;
     background-repeat: no-repeat;
     image-rendering: optimizeQuality;
     filter: blur(1);
-    
-    }
-    
-    #iconholder{
-      display: flexbox;
-      flex-direction:row ;
-      flex-wrap: nowrap;
-      position: absolute;
-      top: 20vh;
-      left: 10vw;
-       
-    }
-    .ic {
-      height: 6rem;
-      padding:0 2vw 5vw 5vw;
-      filter: saturate(90%);
-      filter: brightness(90%);
-      transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
-    }
-    
-    .ic:hover {
-      filter: saturate(120%);
-      transform: scale(1.03);
-    }
-    
-    #project{
-      background-color: #212529;
-      position: absolute;
-      top:240vh;
-      height: 78vh;
-      width: 100vw;
-     
-    }
-    
-    .proj {
-      position: absolute;
-      top: 0%; /* Start position (hidden above the viewport) */
-      left: 8.30vw;
-      font-family: "Roboto", sans-serif;
-      font-weight: 900;
-      font-size: 4rem;
-      opacity: 0; /* Initially hidden */
-      transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-      z-index: 500;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .proj.active {
-      top:6%; /* Final position (visible in the viewport) */
-      opacity: 1; /* Fully visible */
-      color: #fff;
-    }
-    
-    .pd{
-      position: absolute;
-      top:150px;
-      margin-left: 8.5%;
-      margin-right: 8.5%;
-      text-align: justify;
-      color: #fff;
-      font-size: 1.1rem;
-      font-weight: 500;
-      font-family: "Roboto", sans-serif;
-      }
-    
-      .btn{
-        position: absolute;
-        bottom: 12%;
-        left: 8.6%;
-      }
+  }
+
+  #iconholder {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+  }
+  .ic {
+    height: 6rem;
+    padding: 0 2vw 5vw 5vw;
+    filter: saturate(90%);
+    filter: brightness(90%);
+    transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
+  }
+
+  .ic:hover {
+    filter: saturate(120%);
+    transform: scale(1.03);
+  }
+
+  #project {
+    background-color: #212529;
+    position: absolute;
+    top: 240vh;
+    height: 78vh;
+    width: 100vw;
+  }
+
+  .proj {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 8.3vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    margin: 0;
+    padding: 0;
+  }
+
+  .proj.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+    color: #fff;
+  }
+
+  .pd {
+    position: absolute;
+    top: 150px;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 12%;
+    left: 8.6%;
+  }
 }
 
+@media (max-width: 392px) and (min-width: 381px) {
+  html {
+    overflow-x: hidden;
+  }
 
+  #img-holder {
+    height: 15rem; /* even smaller height */
+    width: auto; /* even smaller width */
+    position: relative;
+    top: 8vh;
+    left: 48vw;
+  }
 
+  #hi {
+    top: 10vh; /* adjust position */
+    left: 20vw; /* center horizontally */
+    font-size: 2rem; /* smaller font size */
+    transform: translateX(-50%); /* center horizontally */
+  }
 
+  #myname {
+    top: 15vh; /* adjust position */
+    font-size: 2.8rem; /* smaller font size */
+    left: 27vw; /* center horizontally */
+    transform: translateX(-50%); /* center horizontally */
+  }
 
+  /* Adjust navbar for small screens */
+  .navbar {
+    padding: 10px 0; /* reduce padding */
+  }
 
+  .nav-link {
+    font-size: 1.6rem !important; /* smaller font size for smaller screens */
+    padding-right: 20px !important; /* reduce padding for smaller screens */
+    padding-left: 20px;
+  }
 
-      @media (max-width: 392px) and (min-width:381px){
-        html{
-          overflow-x: hidden;
-        }
-        
-          #img-holder {
-            height: 15rem; /* even smaller height */
-            width: auto; /* even smaller width */
-            position: relative;
-            top: 8vh;
-            left:48vw;
-            
-          }
-        
-          #hi {
-            top: 10vh; /* adjust position */
-            left: 20vw; /* center horizontally */
-            font-size: 2rem; /* smaller font size */
-            transform: translateX(-50%); /* center horizontally */
-          }
-        
-          #myname {
-            top: 15vh; /* adjust position */
-            font-size: 2.8rem; /* smaller font size */
-            left: 27vw; /* center horizontally */
-            transform: translateX(-50%); /* center horizontally */
-          }
-        
-          /* Adjust navbar for small screens */
-          .navbar {
-            padding: 10px 0; /* reduce padding */
-          }
-        
-          .nav-link {
-            font-size: 1.6rem !important; /* smaller font size for smaller screens */
-            padding-right: 20px !important; /* reduce padding for smaller screens */
-            padding-left: 20px;
-          }
-        
-          
-        main {
-          position: absolute;
-          top: 26px;
-          background-image: url("./images/2.webp");
-          height: 45%;
-          filter: opacity(0.9);
-          filter: grayscale(0.95);
-          filter: saturate(10%);
-        }
-        
-        #role{
-          position: absolute;
-          z-index: 108;
-          top: 25vh;
-          left: 9vw;
-          margin-right: 52vw;
-          font-size: .8rem;
-          font-weight: 400;
-          font-family: "Roboto", sans-serif;
-          color: #fff;
-        }
-        
-        #overview{
-          position: relative;
-          top:45vh;
-          height: 80vh;
-          padding: 0;
-          margin: 0;
-          background-color: #FFF;
-          }
-          
-          .commonheading {
-            position: absolute;
-            top: -5%; /* Start position (hidden above the viewport) */
-            left: 7.75vw;
-            font-family: "Roboto", sans-serif;
-            font-weight: 900;
-            font-size: 4rem;
-            opacity: 0; /* Initially hidden */
-            transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-          }
-          
-          .commonheading.active {
-            top: 0%; /* Final position (visible in the viewport) */
-            opacity: 1; /* Fully visible */
-          }
-          
-          .heading1 {
-            position: absolute;
-            top: 0%; /* Start position (hidden above the viewport) */
-            left: 7.75vw;
-            font-family: "Roboto", sans-serif;
-            font-weight: 900;
-            font-size: 4rem;
-            opacity: 0; /* Initially hidden */
-            transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-            z-index: 500;
-            color: #fff;
-          }
-          
-          .heading1.active {
-            top:6%; /* Final position (visible in the viewport) */
-            opacity: 1; /* Fully visible */
-          }
-          
-          .desc{
-          position: absolute;
-          top:100px;
-          left: 7.75vw;
-          margin-right: 7.75vw;
-          text-align: justify;
-          color: #666;
-          font-size: 1.1rem;
-          font-weight: 500;
-          font-family: "Roboto", sans-serif;
-          }
-          
-          .card{
-          display: none;
-          }
-          
-        .card-img-top{
-          display: none;
-        }
-        
-          #skills{
-            position: relative;
-          top:125vh;
-          height: 90vh;
-          padding: 0;
-          margin: 0;
-          background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
-          background-size: cover;
-          background-repeat: no-repeat;
-          image-rendering: optimizeQuality;
-          filter: blur(1);
-          
-          }
-          
-          #iconholder{
-            display: flexbox;
-            flex-direction:row ;
-            flex-wrap: nowrap;
-            position: absolute;
-            top: 24vh;
-            left: 4vw;
-             
-          }
-          .ic {
-            height: 6rem;
-            padding:0 2vw 5vw 5vw;
-            filter: saturate(90%);
-            filter: brightness(90%);
-            transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
-          }
-          
-          .ic:hover {
-            filter: saturate(120%);
-            transform: scale(1.03);
-          }
-          
-          #project{
-            background-color: #212529;
-            position: absolute;
-            top:278vh;
-            height: 80vh;
-            width: 100vw;
-           
-          }
-          
-          .proj {
-            position: absolute;
-            top: 0%; /* Start position (hidden above the viewport) */
-            left: 8.30vw;
-            font-family: "Roboto", sans-serif;
-            font-weight: 900;
-            font-size: 4rem;
-            opacity: 0; /* Initially hidden */
-            transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-            z-index: 500;
-            margin: 0;
-          padding: 0;
-          }
-          
-          .proj.active {
-            top:6%; /* Final position (visible in the viewport) */
-            opacity: 1; /* Fully visible */
-            color: #fff;
-          }
-          
-          .pd{
-            position: absolute;
-            top:150px;
-            margin-left: 8.5%;
-            margin-right: 8.5%;
-            text-align: justify;
-            color: #fff;
-            font-size: 1.1rem;
-            font-weight: 500;
-            font-family: "Roboto", sans-serif;
-            }
-          
-            .btn{
-              position: absolute;
-              bottom:  10%;
-              left: 8.6%;
-            }
-          }
+  main {
+    position: absolute;
+    top: 26px;
+    background-image: url("./images/2.webp");
+    height: 45%;
+    filter: opacity(0.9);
+    filter: grayscale(0.95);
+    filter: saturate(10%);
+  }
 
+  #role {
+    position: absolute;
+    z-index: 108;
+    top: 25vh;
+    left: 9vw;
+    margin-right: 52vw;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+  }
 
+  #overview {
+    position: relative;
+    top: 45vh;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+  }
 
+  .commonheading {
+    position: absolute;
+    top: -5%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+  }
 
+  .commonheading.active {
+    top: 0%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
 
-      @media (max-width: 381px) and (min-width:345px) {
-        html{
-          overflow-x: hidden;
-        }
-        
-          #img-holder {
-            height: 15rem; /* even smaller height */
-            width: auto; /* even smaller width */
-            position: relative;
-            top: 0vh;
-            left:50vw;
-            transform: translateY(20%);
-          }
-        
-          #hi {
-            top: 10vh; /* adjust position */
-            left: 20vw; /* center horizontally */
-            font-size: 2rem; /* smaller font size */
-            transform: translateX(-50%); /* center horizontally */
-          }
-        
-          #myname {
-            top: 15vh; /* adjust position */
-            font-size: 2.8rem; /* smaller font size */
-            left: 27vw; /* center horizontally */
-            transform: translateX(-50%); /* center horizontally */
-          }
-        
-          /* Adjust navbar for small screens */
-          .navbar {
-            padding: 10px 0; /* reduce padding */
-          }
-        
-          .nav-link {
-            font-size: 1.6rem !important; /* smaller font size for smaller screens */
-            padding-right: 20px !important; /* reduce padding for smaller screens */
-            padding-left: 20px;
-          }
-        
-          
-        main {
-          position: absolute;
-          top: 26px;
-          background-image: url("./images/2.webp");
-          height: 45%;
-          filter: opacity(0.9);
-          filter: grayscale(0.95);
-          filter: saturate(10%);
-        }
-        
-        #role{
-          position: absolute;
-          z-index: 108;
-          top: 25vh;
-          left: 9vw;
-          margin-right: 52vw;
-          font-size: .8rem;
-          font-weight: 400;
-          font-family: "Roboto", sans-serif;
-          color: #fff;
-        }
-        
-        #overview{
-          position: relative;
-          top:45vh;
-          height: 80vh;
-          padding: 0;
-          margin: 0;
-          background-color: #FFF;
-          }
-          
-          .commonheading {
-            position: absolute;
-            top: -5%; /* Start position (hidden above the viewport) */
-            left: 7.75vw;
-            font-family: "Roboto", sans-serif;
-            font-weight: 900;
-            font-size: 4rem;
-            opacity: 0; /* Initially hidden */
-            transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-          }
-          
-          .commonheading.active {
-            top: 0%; /* Final position (visible in the viewport) */
-            opacity: 1; /* Fully visible */
-          }
-          
-          .heading1 {
-            position: absolute;
-            top: 0%; /* Start position (hidden above the viewport) */
-            left: 7.75vw;
-            font-family: "Roboto", sans-serif;
-            font-weight: 900;
-            font-size: 4rem;
-            opacity: 0; /* Initially hidden */
-            transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-            z-index: 500;
-            color: #fff;
-          }
-          
-          .heading1.active {
-            top:6%; /* Final position (visible in the viewport) */
-            opacity: 1; /* Fully visible */
-          }
-          
-          .desc{
-          position: absolute;
-          top:100px;
-          left: 7.75vw;
-          margin-right: 7.75vw;
-          text-align: justify;
-          color: #666;
-          font-size: 1.1rem;
-          font-weight: 500;
-          font-family: "Roboto", sans-serif;
-          }
-          
-          .card{
-          display: none;
-          }
-          
-        .card-img-top{
-          display: none;
-        }
-        
-          #skills{
-            position: relative;
-          top:162vh;
-          height: 90vh;
-          padding: 0;
-          margin: 0;
-          background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
-          background-size: cover;
-          background-repeat: no-repeat;
-          image-rendering: optimizeQuality;
-          filter: blur(1);
-          
-          }
-          
-          #iconholder{
-            display: flexbox;
-            flex-direction:row ;
-            flex-wrap: nowrap;
-            position: absolute;
-            top: 24vh;
-            left: 4vw;
-             
-          }
-          .ic {
-            height: 6rem;
-            padding:0 2vw 5vw 5vw;
-            filter: saturate(90%);
-            filter: brightness(90%);
-            transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
-          }
-          
-          .ic:hover {
-            filter: saturate(120%);
-            transform: scale(1.03);
-          }
-          
-          #project{
-            background-color: #212529;
-            position: absolute;
-            top:322vh;
-            height: 98vh;
-            width: 100vw;
-           
-          }
-          
-          .proj {
-            position: absolute;
-            top: 0%; /* Start position (hidden above the viewport) */
-            left: 8.30vw;
-            font-family: "Roboto", sans-serif;
-            font-weight: 900;
-            font-size: 4rem;
-            opacity: 0; /* Initially hidden */
-            transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-            z-index: 500;
-            margin: 0;
-          padding: 0;
-          }
-          
-          .proj.active {
-            top:6%; /* Final position (visible in the viewport) */
-            opacity: 1; /* Fully visible */
-            color: #fff;
-          }
-          
-          .pd{
-            position: absolute;
-            top:150px;
-            margin-left: 8.5%;
-            margin-right: 8.5%;
-            text-align: justify;
-            color: #fff;
-            font-size: 1.1rem;
-            font-weight: 500;
-            font-family: "Roboto", sans-serif;
-            }
-          
-            .btn{
-              position: absolute;
-              bottom: 5%;
-              left: 8.6%;
-            }
-          }
-        
+  .heading1 {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    color: #fff;
+  }
 
+  .heading1.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
 
+  .desc {
+    position: absolute;
+    top: 100px;
+    left: 7.75vw;
+    margin-right: 7.75vw;
+    text-align: justify;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
 
-          @media (max-width: 344px){
-            html{
-              overflow-x: hidden;
-            }
-            
-              #img-holder {
-                height: 15rem; /* even smaller height */
-                width: auto; /* even smaller width */
-                position: relative;
-                top: 5vh;
-                left:50vw;
-                transform: translateY(20%);
-              }
-            
-              #hi {
-                top: 10vh; /* adjust position */
-                left: 20vw; /* center horizontally */
-                font-size: 2rem; /* smaller font size */
-                transform: translateX(-50%); /* center horizontally */
-              }
-            
-              #myname {
-                top: 15vh; /* adjust position */
-                font-size: 2.8rem; /* smaller font size */
-                left: 27vw; /* center horizontally */
-                transform: translateX(-50%); /* center horizontally */
-              }
-            
-              /* Adjust navbar for small screens */
-              .navbar {
-                padding: 10px 0; /* reduce padding */
-              }
-            
-              .nav-link {
-                font-size: 1.6rem !important; /* smaller font size for smaller screens */
-                padding-right: 20px !important; /* reduce padding for smaller screens */
-                padding-left: 20px;
-              }
-            
-              
-            main {
-              position: absolute;
-              top: 26px;
-              background-image: url("./images/2.webp");
-              height: 45%;
-              filter: opacity(0.9);
-              filter: grayscale(0.95);
-              filter: saturate(10%);
-            }
-            
-            #role{
-              position: absolute;
-              z-index: 108;
-              top: 25vh;
-              left: 9vw;
-              margin-right: 52vw;
-              font-size: .8rem;
-              font-weight: 400;
-              font-family: "Roboto", sans-serif;
-              color: #fff;
-            }
-            
-            #overview{
-              position: relative;
-              top:45vh;
-              height: 60vh;
-              padding: 0;
-              margin: 0;
-              background-color: #FFF;
-              }
-              
-              .commonheading {
-                position: absolute;
-                top: -5%; /* Start position (hidden above the viewport) */
-                left: 7.75vw;
-                font-family: "Roboto", sans-serif;
-                font-weight: 900;
-                font-size: 4rem;
-                opacity: 0; /* Initially hidden */
-                transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-              }
-              
-              .commonheading.active {
-                top: 0%; /* Final position (visible in the viewport) */
-                opacity: 1; /* Fully visible */
-              }
-              
-              .heading1 {
-                position: absolute;
-                top: 0%; /* Start position (hidden above the viewport) */
-                left: 7.75vw;
-                font-family: "Roboto", sans-serif;
-                font-weight: 900;
-                font-size: 4rem;
-                opacity: 0; /* Initially hidden */
-                transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-                z-index: 500;
-                color: #fff;
-              }
-              
-              .heading1.active {
-                top:6%; /* Final position (visible in the viewport) */
-                opacity: 1; /* Fully visible */
-              }
-              
-              .desc{
-              position: absolute;
-              top:100px;
-              left: 7.75vw;
-              margin-right: 7.75vw;
-              text-align: justify;
-              color: #666;
-              font-size: 1.1rem;
-              font-weight: 500;
-              font-family: "Roboto", sans-serif;
-              }
-              
-              .card{
-              display: none;
-              }
-              
-            .card-img-top{
-              display: none;
-            }
-            
-              #skills{
-                position: relative;
-              top:158vh;
-              height: 90vh;
-              padding: 0;
-              margin: 0;
-              background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
-              background-size: cover;
-              background-repeat: no-repeat;
-              image-rendering: optimizeQuality;
-              filter: blur(1);
-              
-              }
-              
-              #iconholder{
-                display: flexbox;
-                flex-direction:row ;
-                flex-wrap: nowrap;
-                position: absolute;
-                top: 24vh;
-                left: 4vw;
-                 
-              }
-              .ic {
-                height: 6rem;
-                padding:0 2vw 5vw 5vw;
-                filter: saturate(90%);
-                filter: brightness(90%);
-                transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
-              }
-              
-              .ic:hover {
-                filter: saturate(120%);
-                transform: scale(1.03);
-              }
-              
-              #project{
-                background-color: #212529;
-                position: absolute;
-                top:288vh;
-                height: 78vh;
-                width: 100vw;
-               
-              }
-              
-              .proj {
-                position: absolute;
-                top: 0%; /* Start position (hidden above the viewport) */
-                left: 8.30vw;
-                font-family: "Roboto", sans-serif;
-                font-weight: 900;
-                font-size: 4rem;
-                opacity: 0; /* Initially hidden */
-                transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
-                z-index: 500;
-                margin: 0;
-              padding: 0;
-              }
-              
-              .proj.active {
-                top:6%; /* Final position (visible in the viewport) */
-                opacity: 1; /* Fully visible */
-                color: #fff;
-              }
-              
-              .pd{
-                position: absolute;
-                top:150px;
-                margin-left: 8.5%;
-                margin-right: 8.5%;
-                text-align: justify;
-                color: #fff;
-                font-size: 1.1rem;
-                font-weight: 500;
-                font-family: "Roboto", sans-serif;
-                }
-              
-                .btn{
-                  position: absolute;
-                  bottom: 10%;
-                  left: 8.6%;
-                }
-              }
+  .card {
+    display: none;
+  }
+
+  .card-img-top {
+    display: none;
+  }
+
+  #skills {
+    position: relative;
+    top: 125vh;
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    filter: blur(1);
+  }
+
+  #iconholder {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 24vh;
+    left: 4vw;
+  }
+  .ic {
+    height: 6rem;
+    padding: 0 2vw 5vw 5vw;
+    filter: saturate(90%);
+    filter: brightness(90%);
+    transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
+  }
+
+  .ic:hover {
+    filter: saturate(120%);
+    transform: scale(1.03);
+  }
+
+  #project {
+    background-color: #212529;
+    position: absolute;
+    top: 278vh;
+    height: 80vh;
+    width: 100vw;
+  }
+
+  .proj {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 8.3vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    margin: 0;
+    padding: 0;
+  }
+
+  .proj.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+    color: #fff;
+  }
+
+  .pd {
+    position: absolute;
+    top: 150px;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 10%;
+    left: 8.6%;
+  }
+}
+
+@media (max-width: 381px) and (min-width: 345px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  #img-holder {
+    height: 15rem; /* even smaller height */
+    width: auto; /* even smaller width */
+    position: relative;
+    top: 0vh;
+    left: 50vw;
+    transform: translateY(20%);
+  }
+
+  #hi {
+    top: 10vh; /* adjust position */
+    left: 20vw; /* center horizontally */
+    font-size: 2rem; /* smaller font size */
+    transform: translateX(-50%); /* center horizontally */
+  }
+
+  #myname {
+    top: 15vh; /* adjust position */
+    font-size: 2.8rem; /* smaller font size */
+    left: 27vw; /* center horizontally */
+    transform: translateX(-50%); /* center horizontally */
+  }
+
+  /* Adjust navbar for small screens */
+  .navbar {
+    padding: 10px 0; /* reduce padding */
+  }
+
+  .nav-link {
+    font-size: 1.6rem !important; /* smaller font size for smaller screens */
+    padding-right: 20px !important; /* reduce padding for smaller screens */
+    padding-left: 20px;
+  }
+
+  main {
+    position: absolute;
+    top: 26px;
+    background-image: url("./images/2.webp");
+    height: 45%;
+    filter: opacity(0.9);
+    filter: grayscale(0.95);
+    filter: saturate(10%);
+  }
+
+  #role {
+    position: absolute;
+    z-index: 108;
+    top: 25vh;
+    left: 9vw;
+    margin-right: 52vw;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+  }
+
+  #overview {
+    position: relative;
+    top: 45vh;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+  }
+
+  .commonheading {
+    position: absolute;
+    top: -5%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+  }
+
+  .commonheading.active {
+    top: 0%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .heading1 {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    color: #fff;
+  }
+
+  .heading1.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .desc {
+    position: absolute;
+    top: 100px;
+    left: 7.75vw;
+    margin-right: 7.75vw;
+    text-align: justify;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .card-img-top {
+    display: none;
+  }
+
+  #skills {
+    position: relative;
+    top: 168vh;
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    filter: blur(1);
+  }
+
+  #iconholder {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 24vh;
+    left: 4vw;
+  }
+  .ic {
+    height: 6rem;
+    padding: 0 2vw 5vw 5vw;
+    filter: saturate(90%);
+    filter: brightness(90%);
+    transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
+  }
+
+  .ic:hover {
+    filter: saturate(120%);
+    transform: scale(1.03);
+  }
+
+  #project {
+    background-color: #212529;
+    position: absolute;
+    top: 330vh;
+    height: 98vh;
+    width: 100vw;
+  }
+
+  .proj {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 8.3vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    margin: 0;
+    padding: 0;
+  }
+
+  .proj.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+    color: #fff;
+  }
+
+  .pd {
+    position: absolute;
+    top: 150px;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 5%;
+    left: 8.6%;
+  }
+}
+
+@media (max-width: 344px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  #img-holder {
+    height: 15rem; /* even smaller height */
+    width: auto; /* even smaller width */
+    position: relative;
+    top: 5vh;
+    left: 50vw;
+    transform: translateY(20%);
+  }
+
+  #hi {
+    top: 10vh; /* adjust position */
+    left: 20vw; /* center horizontally */
+    font-size: 2rem; /* smaller font size */
+    transform: translateX(-50%); /* center horizontally */
+  }
+
+  #myname {
+    top: 15vh; /* adjust position */
+    font-size: 2.8rem; /* smaller font size */
+    left: 27vw; /* center horizontally */
+    transform: translateX(-50%); /* center horizontally */
+  }
+
+  /* Adjust navbar for small screens */
+  .navbar {
+    padding: 10px 0; /* reduce padding */
+  }
+
+  .nav-link {
+    font-size: 1.6rem !important; /* smaller font size for smaller screens */
+    padding-right: 20px !important; /* reduce padding for smaller screens */
+    padding-left: 20px;
+  }
+
+  main {
+    position: absolute;
+    top: 26px;
+    background-image: url("./images/2.webp");
+    height: 45%;
+    filter: opacity(0.9);
+    filter: grayscale(0.95);
+    filter: saturate(10%);
+  }
+
+  #role {
+    position: absolute;
+    z-index: 108;
+    top: 25vh;
+    left: 9vw;
+    margin-right: 52vw;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+  }
+
+  #overview {
+    position: relative;
+    top: 45vh;
+    height: 60vh;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+  }
+
+  .commonheading {
+    position: absolute;
+    top: -5%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+  }
+
+  .commonheading.active {
+    top: 0%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .heading1 {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 7.75vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    color: #fff;
+  }
+
+  .heading1.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+  }
+
+  .desc {
+    position: absolute;
+    top: 100px;
+    left: 7.75vw;
+    margin-right: 7.75vw;
+    text-align: justify;
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .card-img-top {
+    display: none;
+  }
+
+  #skills {
+    position: relative;
+    top: 158vh;
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    background-image: url("/images/city_black_and_white_2-wallpaper-1920x1080.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
+    filter: blur(1);
+  }
+
+  #iconholder {
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 24vh;
+    left: 4vw;
+  }
+  .ic {
+    height: 6rem;
+    padding: 0 2vw 5vw 5vw;
+    filter: saturate(90%);
+    filter: brightness(90%);
+    transition: transform 0.9s ease, filter 0.9s ease; /* Smooth transition for transform and filter */
+  }
+
+  .ic:hover {
+    filter: saturate(120%);
+    transform: scale(1.03);
+  }
+
+  #project {
+    background-color: #212529;
+    position: absolute;
+    top: 288vh;
+    height: 78vh;
+    width: 100vw;
+  }
+
+  .proj {
+    position: absolute;
+    top: 0%; /* Start position (hidden above the viewport) */
+    left: 8.3vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    opacity: 0; /* Initially hidden */
+    transition: top 1.5s ease-out, opacity 0.8s ease-out; /* Smooth transition for both position and visibility */
+    z-index: 500;
+    margin: 0;
+    padding: 0;
+  }
+
+  .proj.active {
+    top: 6%; /* Final position (visible in the viewport) */
+    opacity: 1; /* Fully visible */
+    color: #fff;
+  }
+
+  .pd {
+    position: absolute;
+    top: 150px;
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    text-align: justify;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 10%;
+    left: 8.6%;
+  }
+}
