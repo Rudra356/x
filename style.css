@@ -1507,7 +1507,7 @@ padding: 0;
         
           #skills{
             position: relative;
-          top:168vh;
+          top:162vh;
           height: 90vh;
           padding: 0;
           margin: 0;
@@ -1544,8 +1544,8 @@ padding: 0;
           #project{
             background-color: #212529;
             position: absolute;
-            top:328vh;
-            height: 108vh;
+            top:322vh;
+            height: 98vh;
             width: 100vw;
            
           }
@@ -1584,7 +1584,7 @@ padding: 0;
           
             .btn{
               position: absolute;
-              bottom: 10%;
+              bottom: 5%;
               left: 8.6%;
             }
           }
@@ -1601,7 +1601,7 @@ padding: 0;
                 height: 15rem; /* even smaller height */
                 width: auto; /* even smaller width */
                 position: relative;
-                top: 0vh;
+                top: 5vh;
                 left:50vw;
                 transform: translateY(20%);
               }
@@ -1657,7 +1657,7 @@ padding: 0;
             #overview{
               position: relative;
               top:45vh;
-              height: 80vh;
+              height: 60vh;
               padding: 0;
               margin: 0;
               background-color: #FFF;
@@ -1719,7 +1719,7 @@ padding: 0;
             
               #skills{
                 position: relative;
-              top:168vh;
+              top:158vh;
               height: 90vh;
               padding: 0;
               margin: 0;
@@ -1756,8 +1756,8 @@ padding: 0;
               #project{
                 background-color: #212529;
                 position: absolute;
-                top:328vh;
-                height: 108vh;
+                top:288vh;
+                height: 78vh;
                 width: 100vw;
                
               }
